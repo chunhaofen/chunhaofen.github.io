@@ -24,34 +24,34 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
-      
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm
-      
+
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8
-      
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      
+
       - name: Type check
         run: pnpm run type-check
-      
+
       - name: Build with VitePress
         run: pnpm run build
-      
+
       - name: Check links
         run: pnpm run check-links
         continue-on-error: true
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
