@@ -1,4 +1,4 @@
-# ChunhaoFen 个人主页
+# 个人主页
 
 > 基于 VitePress 构建的简洁、现代的个人主页，展示 electron-infra-kit 及相关开源项目。
 
