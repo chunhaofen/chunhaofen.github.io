@@ -4,6 +4,8 @@
 
 🌐 **在线访问**: [https://chunhaofen.github.io](https://chunhaofen.github.io)
 
+[![Deploy Status](https://github.com/chunhaofen/chunhaofen.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/chunhaofen/chunhaofen.github.io/actions/workflows/deploy.yml)
+
 ## 📋 项目简介
 
 这是一个使用 VitePress 构建的静态网站，用于展示个人开源项目，特别是 electron-infra-kit 系列项目。网站设计简洁，注重性能和可维护性。
