@@ -1,0 +1,16 @@
+{
+  "recurse": true,
+  "silent": false,
+  "concurrency": 25,
+  "timeout": 5000,
+  "retry": false,
+  "skip": [
+    "^https?://(?!localhost)",
+    "^mailto:",
+    "favicon\\.ico$",
+    "apple-touch-icon\\.png$",
+    "projects/electron-infra-kit$",
+    "projects/electron-infra-kit-docs$",
+    "projects/electron-infra-showcase$"
+  ]
+}
